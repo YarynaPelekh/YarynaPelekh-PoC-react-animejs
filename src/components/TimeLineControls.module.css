@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darkgray;
+  background-color: lightgray;
+}
+
+.button {
+  background-color: lightseagreen;
+  width: 80px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px;
+}

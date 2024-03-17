@@ -1,0 +1,10 @@
+.container {
+  box-sizing: border-box;
+  border: 2px solid #987654;
+  overflow: hidden;
+}
+
+.inputsContainer {
+  display: flex;
+  gap: 10px;
+}

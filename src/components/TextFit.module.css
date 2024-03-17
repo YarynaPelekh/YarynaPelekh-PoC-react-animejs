@@ -1,0 +1,19 @@
+.container {
+  display: block;
+  /* box-sizing: border-box; */
+  border: 1px solid darkgreen;
+  background-color: lightyellow;
+  width: 200px;
+  height: 80px;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+.textBox {
+  box-sizing: border-box;
+  display: inline-block;
+  /* max-height: 80px; */
+  background-color: lightgray;
+  border: 1px solid darkmagenta;
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+}

@@ -1,0 +1,54 @@
+.container {
+  min-height: 100%;
+  min-width: 100px;
+  background-color: lightgrey;
+  border: 1px solid darkgray;
+}
+
+.title {
+  width: 130px;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.button {
+  background-color: lightseagreen;
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px;
+}
+
+@keyframes example {
+  /* 0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  } */
+  from {
+    background-color: red;
+    right: -80px;
+  }
+  to {
+    background-color: blue;
+    right: 10px;
+  }
+}
+
+/* The element to apply the animation to */
+.animatedBox {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  background-color: green;
+  animation-name: example;
+  animation-duration: 4s;
+}

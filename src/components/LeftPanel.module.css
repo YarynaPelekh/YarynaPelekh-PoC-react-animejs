@@ -1,0 +1,25 @@
+.container {
+  min-height: 100%;
+  min-width: 100px;
+  background-color: lightgrey;
+  border: 1px solid darkgray;
+}
+
+.title {
+  width: 130px;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item {
+  font-size: 18px;
+  width: 90%;
+  margin: auto;
+  border: 1px solid darkgray;
+}
